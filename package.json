@@ -1,9 +1,17 @@
 {
   "name": "@react-native-community/datetimepicker",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "DateTimePicker component for React Native",
   "main": "./src/index.js",
   "types": "src/index.d.ts",
+  "files": [
+    "ios",
+    "android",
+    "src",
+    "flow-typed",
+    "windows",
+    "RNDateTimePicker.podspec"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -77,7 +85,7 @@
   },
   "peerDependencies": {
     "react": ">=16.8.3",
-    "react-native": ">=0.59",
+    "react-native": ">=0.60",
     "react-native-windows": ">=0.62"
   },
   "dependencies": {
